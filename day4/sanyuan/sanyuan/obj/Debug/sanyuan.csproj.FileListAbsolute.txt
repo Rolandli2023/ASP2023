@@ -1,0 +1,7 @@
+D:\asp2023\day4\sanyuan\sanyuan\bin\Debug\sanyuan.exe.config
+D:\asp2023\day4\sanyuan\sanyuan\bin\Debug\sanyuan.exe
+D:\asp2023\day4\sanyuan\sanyuan\bin\Debug\sanyuan.pdb
+D:\asp2023\day4\sanyuan\sanyuan\obj\Debug\sanyuan.csproj.AssemblyReference.cache
+D:\asp2023\day4\sanyuan\sanyuan\obj\Debug\sanyuan.csproj.CoreCompileInputs.cache
+D:\asp2023\day4\sanyuan\sanyuan\obj\Debug\sanyuan.exe
+D:\asp2023\day4\sanyuan\sanyuan\obj\Debug\sanyuan.pdb

@@ -1,0 +1,6 @@
+D:\asp2023\day4\loopevent\loopevent\bin\Debug\loopevent.exe.config
+D:\asp2023\day4\loopevent\loopevent\bin\Debug\loopevent.exe
+D:\asp2023\day4\loopevent\loopevent\bin\Debug\loopevent.pdb
+D:\asp2023\day4\loopevent\loopevent\obj\Debug\loopevent.csproj.CoreCompileInputs.cache
+D:\asp2023\day4\loopevent\loopevent\obj\Debug\loopevent.exe
+D:\asp2023\day4\loopevent\loopevent\obj\Debug\loopevent.pdb

@@ -1,0 +1,7 @@
+D:\asp2023\day4\cstday41\day4month\bin\Debug\day4month.exe.config
+D:\asp2023\day4\cstday41\day4month\bin\Debug\day4month.exe
+D:\asp2023\day4\cstday41\day4month\bin\Debug\day4month.pdb
+D:\asp2023\day4\cstday41\day4month\obj\Debug\day4month.csproj.AssemblyReference.cache
+D:\asp2023\day4\cstday41\day4month\obj\Debug\day4month.csproj.CoreCompileInputs.cache
+D:\asp2023\day4\cstday41\day4month\obj\Debug\day4month.exe
+D:\asp2023\day4\cstday41\day4month\obj\Debug\day4month.pdb
