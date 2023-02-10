@@ -15,7 +15,7 @@ namespace Cstday7domo2
             get { return _id; }
             set { _id = value; }
         }
-        public void Speak()
+        public new void Speak() //rewrite speak
         {
             Console.WriteLine("I am taking on class of staff");
         }

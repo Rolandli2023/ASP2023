@@ -39,11 +39,11 @@ namespace Cstday7damo1
         }
         private void Eat()
         {
-            Console.WriteLine("food");
+            Console.WriteLine("This is my private food");
         }
         protected void Sleeping()
         {
-            Console.WriteLine("I am sleeping!!");
+            Console.WriteLine("I am sleeping by protected!!");
         }
 
 
