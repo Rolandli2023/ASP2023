@@ -1,2 +1,7 @@
 D:\asp2023\day9\CstArea\CstArea\obj\Debug\CstArea.csproj.AssemblyReference.cache
 D:\asp2023\day9\CstArea\CstArea\obj\Debug\CstArea.csproj.CoreCompileInputs.cache
+D:\asp2023\day9\CstArea\CstArea\bin\Debug\CstArea.exe.config
+D:\asp2023\day9\CstArea\CstArea\bin\Debug\CstArea.exe
+D:\asp2023\day9\CstArea\CstArea\bin\Debug\CstArea.pdb
+D:\asp2023\day9\CstArea\CstArea\obj\Debug\CstArea.exe
+D:\asp2023\day9\CstArea\CstArea\obj\Debug\CstArea.pdb

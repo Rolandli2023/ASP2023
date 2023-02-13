@@ -10,18 +10,18 @@ namespace Cstdemo3
     {
         static void Main(string[] args)
         {
-            //Shape shape = new Circle(11);
-            //double area = shape.Getarea();
-            //double perimeter = shape.Getperimeter();
+            Shape C1 = new Circle(11);
+            double area1 = C1.Getarea();
+            double perimeter1 = C1.Getperimeter();
 
-            //Console.WriteLine(" the shape of area is {0:0.00},\t Perimeter is {1:0.00}", area, perimeter);
+            Console.WriteLine(" the area of Circle is {0:0.00},\t Perimeter is {1:0.00}", area1, perimeter1);
 
-             Shape shape = new Rectangle(22,16);
+             Shape r1= new Rectangle(22,16);
             
-             double area = shape.Getarea();
-             double perimeter = shape.Getperimeter();
+             double area2 = r1.Getarea();
+             double perimeter2 = r1.Getperimeter();
 
-            Console.WriteLine(" the shape of area is {0},\t Perimeter is {1}", area, perimeter);
+            Console.WriteLine(" the area of Rectangle is {0},\t Perimeter is {1}", area2, perimeter2);
         }
     }
 }

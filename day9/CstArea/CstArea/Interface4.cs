@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CstArea
 {
-    interface IPolygon
+    interface IArea
     {
-        void CalcultateArea1(int a, int b);
+        void CalcultateArea(int a, int b);
     }
 }

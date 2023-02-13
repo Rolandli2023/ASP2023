@@ -11,8 +11,8 @@ namespace CstArea
         static void Main(string[] args)
         {
             Rectangle r1 = new Rectangle();
-            r1.CalcultateArea(15.5, 10.5);
-            r1.CalcultatePerimeter(15.5, 10.5);
+            r1.CalcultateArea(15, 10);
+            r1.CalculatePerimeter(15, 10);
             r1.GetColor();
 
 

@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace CstArea
 {
-    public class Rectangle :IPolygon, IPerimeter, IColor
+    class Rectangle: IArea, IPerimeter, IColor
     {
-        public void CalculateArea(int a, int b)
-        {
-            Console.WriteLine("The area of Rectangle is {0}", a * b);
-
-        }
+        
         public void CalculatePerimeter(int a, int b)
         {
             Console.WriteLine("The perimeter of Rectangle is {0}", 2 * (a + b));
@@ -21,6 +17,11 @@ namespace CstArea
         {
             Console.WriteLine("The color of Rectangle is blue!");
         }
+        public void CalcultateArea(int a, int b)
+        {
+            Console.WriteLine("The area of Rectangle is {0}",a*b);
+        }
+
 
     }
 }
