@@ -1,0 +1,2 @@
+D:\asp2023\day9\CstArea\CstArea\obj\Debug\CstArea.csproj.AssemblyReference.cache
+D:\asp2023\day9\CstArea\CstArea\obj\Debug\CstArea.csproj.CoreCompileInputs.cache
