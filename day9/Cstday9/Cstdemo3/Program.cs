@@ -27,7 +27,7 @@ namespace Cstdemo3
             int[] nums = { 10, 20, 30, 50, 40, 33, 88, 66 };
             for (int i = 0; i < nums.Length-1; i++)
             {
-                for (int j = 0; j < nums.Length - 1; j++)
+                for (int j = 0; j < nums.Length - 1; j++)//internal loop
                 {
                     if (nums[j] > nums[j + 1])
                     {
@@ -41,7 +41,7 @@ namespace Cstdemo3
                 }
                 //bubble sort
             }
-            for (int i = 0; i < nums.Length; i++)
+            for (int i = 0; i < nums.Length; i++)//external loop
             {
                 Console.WriteLine(nums[i]);
             }
