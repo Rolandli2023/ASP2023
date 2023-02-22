@@ -1,0 +1,5 @@
+D:\asp2023\day14\cstday14\cstdemo1\obj\Debug\cstdemo1.csproj.AssemblyReference.cache
+D:\asp2023\day14\cstday14\cstdemo1\obj\Debug\cstdemo1.Mainform.resources
+D:\asp2023\day14\cstday14\cstdemo1\obj\Debug\cstdemo1.Properties.Resources.resources
+D:\asp2023\day14\cstday14\cstdemo1\obj\Debug\cstdemo1.csproj.GenerateResource.cache
+D:\asp2023\day14\cstday14\cstdemo1\obj\Debug\cstdemo1.csproj.CoreCompileInputs.cache

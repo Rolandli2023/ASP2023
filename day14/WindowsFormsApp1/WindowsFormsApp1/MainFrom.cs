@@ -7,25 +7,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Configuration;
 using System.Data.SqlClient;
+using System.Configuration;
 
-namespace cstdemo1
+namespace WindowsFormsApp1
 {
-    public partial class Mainform : Form
+    public partial class Userlist : Form
     {
-        public Mainform()
+        public Userlist()
         {
             InitializeComponent();
         }
 
-        private void Mainform_Load(object sender, EventArgs e)
+        private void Userlist_Load(object sender, EventArgs e)
         {
+           // MessageBox.Show("data loading");
             loadUserInfo();
         }
+
         private void loadUserInfo()
         {
-            List < UserInfo > userList= new List<UserInfo>(); 
+            List<UserInfo> userList = new List<UserInfo>();
             String connstr = ConfigurationManager.ConnectionStrings["strSql"].ConnectionString;
             using (SqlConnection conn = new SqlConnection(connstr))
             {
@@ -44,11 +46,12 @@ namespace cstdemo1
                             userInfo.UserMobile = reader["UserMobile"].ToString();
 
                             userList.Add(userInfo);
-                        }
-                    }
-                }
-            }
-            this.dataGridView1.DataSource = userList;
-        }
+
+                        }//end while loop
+                    }// end datareader
+                }//end sqlcommond
+            }// end connection
+            this.dgvUserlist.DataSource = userList;
+        } 
     }
 }
