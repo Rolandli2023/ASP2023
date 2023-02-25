@@ -1,0 +1,13 @@
+D:\asp2023\day14\WindowsFormsApp1\damo2\obj\Debug\damo2.csproj.AssemblyReference.cache
+D:\asp2023\day14\WindowsFormsApp1\damo2\obj\Debug\damo2.Properties.Resources.resources
+D:\asp2023\day14\WindowsFormsApp1\damo2\obj\Debug\damo2.csproj.GenerateResource.cache
+D:\asp2023\day14\WindowsFormsApp1\damo2\obj\Debug\damo2.csproj.CoreCompileInputs.cache
+D:\asp2023\day14\WindowsFormsApp1\damo2\bin\Debug\damo2.exe.config
+D:\asp2023\day14\WindowsFormsApp1\damo2\bin\Debug\damo2.exe
+D:\asp2023\day14\WindowsFormsApp1\damo2\bin\Debug\damo2.pdb
+D:\asp2023\day14\WindowsFormsApp1\damo2\bin\Debug\System.Data.SqlClient.dll
+D:\asp2023\day14\WindowsFormsApp1\damo2\bin\Debug\System.Data.SqlClient.xml
+D:\asp2023\day14\WindowsFormsApp1\damo2\obj\Debug\damo2.MainForm.resources
+D:\asp2023\day14\WindowsFormsApp1\damo2\obj\Debug\damo2.csproj.CopyComplete
+D:\asp2023\day14\WindowsFormsApp1\damo2\obj\Debug\damo2.exe
+D:\asp2023\day14\WindowsFormsApp1\damo2\obj\Debug\damo2.pdb

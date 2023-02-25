@@ -27,31 +27,40 @@ namespace WindowsFormsApp1
 
         private void loadUserInfo()
         {
-            List<UserInfo> userList = new List<UserInfo>();
+            
             String connstr = ConfigurationManager.ConnectionStrings["strSql"].ConnectionString;
             using (SqlConnection conn = new SqlConnection(connstr))
             {
-                using (SqlCommand cmd = conn.CreateCommand())
+                using (SqlDataAdapter adapter = new SqlDataAdapter())
                 {
-                    conn.Open();
-                    cmd.CommandText = "select * from userinfo where delflag=0";
-                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    DataTable dt = new DataTable();
+                    adapter.Fill(dt);
+                    List<UserInfo> userList = new List<UserInfo>();
+                    UserInfo userInfo = new UserInfo();
+
+                    foreach(DataRow dataRow in dt.Rows)
+
                     {
-                        while (reader.Read())
-                        {
-                            UserInfo userInfo = new UserInfo();
-                            userInfo.UserName = reader["UserName"].ToString();
-                            userInfo.UserAge = int.Parse(reader["UserAge"].ToString());
-                            userInfo.UserEmail = reader["UserEmail"].ToString();
-                            userInfo.UserMobile = reader["UserMobile"].ToString();
+                        
+                            
+                            userInfo.UserID = int.Parse(dataRow["UserID"].ToString());
+                            userInfo.UserName = dataRow["UserName"].ToString();
+                            userInfo.UserEmail = dataRow["UserEmail"].ToString();
+                            userInfo.UserMobile = dataRow["UserMobile"].ToString();
 
                             userList.Add(userInfo);
+                             this.dgvUserlist.DataSource = userList;
 
-                        }//end while loop
+                        //end while loop
                     }// end datareader
                 }//end sqlcommond
             }// end connection
-            this.dgvUserlist.DataSource = userList;
-        } 
+           
+        }
+
+       private void dgvUserlist_CellContentClick(object sender, DataGridViewCellEventArgs e)
+       {
+
+       }
     }
 }

@@ -1,0 +1,5 @@
+D:\asp2023\day15\cstday15UserInfoManager\cstDemo1\obj\Debug\cstDemo1.csproj.AssemblyReference.cache
+D:\asp2023\day15\cstday15UserInfoManager\cstDemo1\obj\Debug\cstDemo1.MainFrm.resources
+D:\asp2023\day15\cstday15UserInfoManager\cstDemo1\obj\Debug\cstDemo1.Properties.Resources.resources
+D:\asp2023\day15\cstday15UserInfoManager\cstDemo1\obj\Debug\cstDemo1.csproj.GenerateResource.cache
+D:\asp2023\day15\cstday15UserInfoManager\cstDemo1\obj\Debug\cstDemo1.csproj.CoreCompileInputs.cache

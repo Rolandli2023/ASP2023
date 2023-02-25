@@ -40,6 +40,7 @@ namespace WindowsFormsApp1
             this.dgvUserlist.Name = "dgvUserlist";
             this.dgvUserlist.Size = new System.Drawing.Size(667, 406);
             this.dgvUserlist.TabIndex = 0;
+            this.dgvUserlist.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUserlist_CellContentClick);
             // 
             // Userlist
             // 

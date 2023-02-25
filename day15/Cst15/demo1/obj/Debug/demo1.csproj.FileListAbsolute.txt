@@ -1,0 +1,11 @@
+D:\asp2023\day15\Cst15\demo1\bin\Debug\demo1.exe.config
+D:\asp2023\day15\Cst15\demo1\bin\Debug\demo1.exe
+D:\asp2023\day15\Cst15\demo1\bin\Debug\demo1.pdb
+D:\asp2023\day15\Cst15\demo1\obj\Debug\demo1.csproj.AssemblyReference.cache
+D:\asp2023\day15\Cst15\demo1\obj\Debug\demo1.Properties.Resources.resources
+D:\asp2023\day15\Cst15\demo1\obj\Debug\demo1.MainFrm.resources
+D:\asp2023\day15\Cst15\demo1\obj\Debug\demo1.csproj.GenerateResource.cache
+D:\asp2023\day15\Cst15\demo1\obj\Debug\demo1.csproj.CoreCompileInputs.cache
+D:\asp2023\day15\Cst15\demo1\obj\Debug\demo1.exe
+D:\asp2023\day15\Cst15\demo1\obj\Debug\demo1.pdb
+D:\asp2023\day15\Cst15\demo1\obj\Debug\demo1.UserInfoAddFrm.resources
